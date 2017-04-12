@@ -1,8 +1,6 @@
-from urllib import request as r
-from urllib import response as res
-from urllib import error as er
-from urllib import parse as p
 from sys import stderr as serr
+from urllib import parse as p
+from urllib import request as r
 
 # simple get request
 x = r.urlopen('https://duckduckgo.com')
